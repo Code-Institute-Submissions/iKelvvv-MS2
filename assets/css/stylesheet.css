@@ -188,6 +188,98 @@ a {
     font-size: 150%;
 }
 
+/* Weapons Text */
+#weapon_txt {
+    margin-bottom: 2.5%;
+}
+
+/* Weapon Buttons */
+.btn {
+    width: 200%;
+    height: 100%;
+    font-family: "Benne", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+
+.btn--big::after {
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+}
+
+.btn--blue {
+    border-color: #0085c7;
+    color: #0085c7;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: #0085c7;
+    color: white;
+}
+
+.btn--black {
+    border-color: black;
+    color: black;
+}
+
+.btn--black:active,
+.btn--black:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn--red {
+    border-color: #df0024;
+    color: #df0024;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: #df0024;
+    color: white;
+}
+
+.btn--green {
+    border-color: #009f3d;
+    color: #009f3d;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: #009f3d;
+    color: white;
+}
+
+.btn--yellow {
+    border-color: #f4c300;
+    color: #f4c300;
+}
+
+.btn--yellow:active,
+.btn--yellow:hover {
+    background-color: #f4c300;
+    color: white;
+}
+
 /* Footer */
 footer {
     bottom: 0;
