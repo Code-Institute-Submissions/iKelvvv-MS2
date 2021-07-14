@@ -93,7 +93,7 @@ body {
 /* Form modal */
 .contact_form {
     color: black;
-    background-color: gray;
+    background-color: #0085c7;
     max-width: 400px;
     padding: 30px;
     border-radius: 10px;
@@ -130,6 +130,40 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+/* Score Board */
+.badge {
+    background: grey;
+    color: white;
+    text-transform: uppercase;
+    font-size: 70%;
+    padding: 10px 6px;
+}
+
+#user-label {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translate(-10%, -50%);
+}
+
+#computer-label {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    transform: translate(10%, -50%);
+}
+
+.score-board {
+    border: 3px solid #000;
+    width: 300px;
+    margin: 40px auto;
+    font-size: 40px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
 }
 
 /* Footer */
