@@ -132,3 +132,36 @@ a {
     color: black;
 }
 
+/* Footer */
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    display: block;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 3%;
+    color: #3a3a3a;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-youtube-square:hover,
+.fa-instagram-square:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
