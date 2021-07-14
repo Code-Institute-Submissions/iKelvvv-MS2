@@ -132,7 +132,7 @@ a {
     color: black;
 }
 
-/* Score Board */
+/* Score Board / Results */
 .badge {
     background: grey;
     color: white;
@@ -164,6 +164,28 @@ a {
     text-align: center;
     padding: 15px 20px;
     position: relative;
+}
+
+#result_display {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 250%;
+}
+
+/* Player and CPU Area */
+.player_area {
+    width: 50%;
+    float: left;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 150%;
+}
+.computer_area {
+    width: 50%;
+    float: right;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 150%;
 }
 
 /* Footer */
