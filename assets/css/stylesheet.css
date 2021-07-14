@@ -1,0 +1,35 @@
+/* Global style */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: "Benne", serif;
+    background-color: azure;
+    color: black;
+    text-align: center;
+}
+
+/* Heading style */
+.title {
+    text-align: center;
+    font-size: 250%;
+    margin-top: 0.5%;
+}
+
+.logo {
+    width: 20%;
+}
+
+/* Game menu buttons */
+.game-btn {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 2.5%;
+    font-size: 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
