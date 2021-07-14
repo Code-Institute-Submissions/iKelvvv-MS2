@@ -209,6 +209,25 @@ I decided to use Benne as my font of choice with sans serif as my backup font fo
 
 [Go to the top](#table-of-contents)
 
+-   [HTML5](https://en.wikipedia.org/wiki/HTML)
+    -   The project uses HyperText Markup Language.
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
+    -   The project uses Cascading Style Sheets.
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    -   The project uses JavaScript.
+-   [Visual Studio Code](https://code.visualstudio.com/)
+    -   The project uses Visual Studio Code.
+-   [Chrome](https://www.google.com/intl/en_uk/chrome/)
+    -   The project uses Chrome to debug and test the source code using HTML5.
+-   [Balsamiq](https://balsamiq.com/)
+    -   Balsamiq was used to create the wireframes during the design process.
+-   [Google Fonts](https://fonts.google.com/)
+    -   Google fonts were used to import the "Benne" font into the style.css file which is used on all pages throughout the project.
+-   [GitHub](https://github.com/)
+    -   GitHub was used to store the project's code after being pushed from Git.
+-   [JS Fiddle](https://jsfiddle.net/)
+    -   JS Fiddle was used as a playground to test all my code before committing.
+
 <a name="testing"></a>
 
 # 4. Testing
