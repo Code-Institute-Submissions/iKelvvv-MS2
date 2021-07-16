@@ -95,7 +95,7 @@ body {
 /* Form modal */
 .contact_form {
     color: black;
-    background-color: #0085c7;
+    background-color: white;
     max-width: 400px;
     padding: 30px;
     border-radius: 10px;
@@ -121,6 +121,12 @@ body {
     width: 100%;
     margin: 0 auto;
     height: 5rem;
+}
+
+.submit_button {
+    width: 50%;
+    font-size: 2rem;
+    border-radius: 25px;
 }
 
 /* Rules modal */
@@ -325,7 +331,7 @@ footer {
     }
 
     #intro {
-        margin-top: 5;
+        margin-top: 5%;
     }
 
     .modalDialog > div {
@@ -422,7 +428,7 @@ footer {
     }
 
     #intro {
-        margin-top: 5;
+        margin-top: 5%;
     }
 
     .modalDialog > div {
@@ -496,7 +502,7 @@ footer {
 @media screen and (max-width: 768px) {
     /* Heading style */
     .title {
-        font-size: 200;
+        font-size: 200%;
         margin-top: 1.5%;
     }
 
@@ -511,7 +517,7 @@ footer {
     }
 
     #intro {
-        margin-top: 5;
+        margin-top: 5%;
     }
 
     .modalDialog > div {
@@ -601,7 +607,7 @@ footer {
     }
 
     #intro {
-        margin-top: 5;
+        margin-top: 5%;
     }
 
     .modalDialog > div {
