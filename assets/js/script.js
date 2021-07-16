@@ -1,4 +1,5 @@
 const computerChoiceDisplay = document.getElementById("computer-choice");
+const userChoiceDisplay = document.getElementById("user-choice");
 
 var userChoice;
 var computerChoice;
@@ -6,6 +7,7 @@ var roundWinner;
 
 function selectRock() {
     userChoice = 'Rock';
+    userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     roundWinner = calculateWinner(userChoice, computerChoice);
     
@@ -13,24 +15,28 @@ function selectRock() {
 
 function selectPaper() {
     userChoice = 'Paper';
+    userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     roundWinner = calculateWinner(userChoice, computerChoice);
 }
 
 function selectScissors() {
     userChoice = 'Scissors';
+    userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     roundWinner = calculateWinner(userChoice, computerChoice);
 }
 
 function selectLizard() {
     userChoice = 'Lizard';
+    userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     roundWinner = calculateWinner(userChoice, computerChoice);
 }
 
 function selectSpock() {
     userChoice = 'Spock';
+    userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     roundWinner = calculateWinner(userChoice, computerChoice);
 }
