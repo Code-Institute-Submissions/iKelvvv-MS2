@@ -205,6 +205,14 @@ function incrementComputerScore() {
     playerLabel.style.backgroundColor = "#df0024";
     if (newScore == 3) {
         resultDisplay.innerHTML = "<img class='gif' src='assets/images/you_lose.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
+        const choiceArea = document.getElementsByClassName("choice-area");
+        const weaponsArea = document.getElementsByClassName("weapons_area");
+        while (choiceArea.length > 0) {
+            choiceArea[0].parentNode.removeChild(choiceArea[0]);
+        }
+        while (weaponsArea.length > 0) {
+            weaponsArea[0].parentNode.removeChild(weaponsArea[0]);
+        }
     }
 }
 
@@ -219,5 +227,13 @@ function incrementUserScore() {
 
     if (newScore == 3) {
         resultDisplay.innerHTML = "<img class='gif' src='assets/images/winner.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
+        const choiceArea = document.getElementsByClassName("choice-area");
+        const weaponsArea = document.getElementsByClassName("weapons_area");
+        while (choiceArea.length > 0) {
+            choiceArea[0].parentNode.removeChild(choiceArea[0]);
+        }
+        while (weaponsArea.length > 0) {
+            weaponsArea[0].parentNode.removeChild(weaponsArea[0]);
+        }
     }
 }
