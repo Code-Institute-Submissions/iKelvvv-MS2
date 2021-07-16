@@ -574,6 +574,92 @@ footer {
 
 /* Media query max width 992px for small desktop view */
 @media screen and (max-width: 992px) {
+    /* Heading Styling*/
+    .title {
+        font-size: 310%;
+        margin-top: 1.5%;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    /* Game menu buttons */
+    .index-btn {
+        font-size: 2.4rem;
+        width: 60%;
+    }
+
+    #intro {
+        margin-top: 5%;
+    }
+
+    /* Button modals */
+
+    .modalDialog > div {
+        width: 80%;
+        height: 80%;
+        font-size: 1.5rem;
+    }
+
+    #rules_diagram {
+        display: block;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 5%;
+    }
+
+    .footer i {
+        font-size: 450%;
+    }
+
+    /* Score Board / Results */
+    .badge {
+        font-size: 80%;
+        padding: 10px 6px;
+    }
+
+    .score-board {
+        width: 70%;
+        font-size: 50px;
+        margin-top: 5%;
+    }
+
+    #result_display {
+        font-size: 200%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Player and CPU Area */
+    .player_area {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        font-size: 130%;
+    }
+
+    .computer_area {
+        margin-top: 2.5%;
+        margin-bottom: 7.5%;
+        font-size: 130%;
+    }
+
+    /* Weapons Text */
+    #weapon_txt {
+        font-size: 190%;
+        margin-top: 10%;
+    }
+
+    /* Weapon Buttons */
+    .btn--big {
+        margin-top: 5%;
+        width: 20%;
+        margin: 0 auto;
+    }
 }
 
 /* Media query max width 1200px for large desktop and device view */
