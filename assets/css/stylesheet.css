@@ -25,11 +25,11 @@ body {
 
 /* Game menu buttons */
 .index-btn {
-    background-color:#efefef;
+    background-color: #efefef;
     padding: 1em 1em;
     font-size: 2.5rem;
     border-radius: 25px;
-    margin-top: 2.5%;
+    margin-top: 2%;
     display: inline-block;
     width: 15%;
 }
@@ -37,7 +37,7 @@ body {
 /* Button modals */
 .modalDialog {
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Benne", serif;
     top: 0;
     right: 0;
     bottom: 0;
@@ -311,4 +311,63 @@ footer {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
+}
+
+/* Media query max width 320px for small mobile devices */
+@media screen and (max-width: 320px) {
+    /* Heading Styling*/
+    .title {
+        font-size: 135%;
+        margin-top: 1.5%;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    /* Game menu buttons */
+    .index-btn {
+        background-color: #efefef;
+        font-size: 1.6rem;
+        margin-top: 10%;
+        width: 60%;
+    }
+
+    #intro {
+        margin-top: 30%;
+    }
+
+    /* Button modals */
+
+    .modalDialog > div {
+        width: 80%;
+        height: 70%;
+    }
+
+    #rules_diagram {
+        display: block;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 35%;
+    }
+}
+
+/* Media query max width 480px for small devices and phones */
+@media screen and (max-width: 480px) {
+}
+
+/* Media query max width 768px for tablets */
+@media screen and (max-width: 768px) {
+}
+
+/* Media query max width 992px for small desktop view */
+@media screen and (max-width: 992px) {
+}
+
+/* Media query max width 1200px for large desktop and device view */
+@media screen and (max-width: 1200px) {
 }
