@@ -9,6 +9,7 @@ let playerLabel = document.getElementById("user-label");
 
 var userChoice;
 var computerChoice;
+var result;
 
 // Selects the rock weapon icon
 function selectRock() {
