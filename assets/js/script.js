@@ -1,42 +1,42 @@
 const computerChoiceDisplay = document.getElementById("computer-choice");
 const userChoiceDisplay = document.getElementById("user-choice");
-const resultDisplay = document.getElementById("result_display")
+const resultDisplay = document.getElementById("result_display");
+const computerScore = document.getElementById("computer-score");
+const userScore = document.getElementById("user-score");
 
 var userChoice;
 var computerChoice;
 
-
 function selectRock() {
-    userChoice = 'Rock';
+    userChoice = "Rock";
     userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     calculateWinner();
-    
 }
 
 function selectPaper() {
-    userChoice = 'Paper';
+    userChoice = "Paper";
     userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     calculateWinner();
 }
 
 function selectScissors() {
-    userChoice = 'Scissors';
+    userChoice = "Scissors";
     userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     calculateWinner();
 }
 
 function selectLizard() {
-    userChoice = 'Lizard';
+    userChoice = "Lizard";
     userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     calculateWinner();
 }
 
 function selectSpock() {
-    userChoice = 'Spock';
+    userChoice = "Spock";
     userChoiceDisplay.innerHTML = userChoice;
     computerChoice = computerGenerator();
     calculateWinner();
@@ -156,22 +156,34 @@ function calculateWinner() {
     resultDisplay.innerHTML = result;
 }
 
-function resetGame() {
-
-}
+function resetGame() {}
 
 function firstToThree() {
-
+    if (userScore.innerText > 3) {
+        userScore.innerText = 0;
+        computerScore.innerText = 0;
+        resultDisplay.innerHTML = "";
+        userChoiceDisplay.innerHTML = "";
+        computerChoiceDisplay.innerHTML = "";
+    } else if (computerScore.innerText > 3) {
+        userScore.innerText = 0;
+        computerScore.innerText = 0;
+        resultDisplay.innerHTML = "";
+        userChoiceDisplay.innerHTML = "";
+        computerChoiceDisplay.innerHTML = "";
+    }
 }
 
 function incrementComputerScore() {
     // Gets the current computer score from the DOM and increments it by 1
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
+    firstToThree();
 }
 
 function incrementUserScore() {
     // Gets the current player score from the DOM and increments it by 1
     let oldScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++oldScore;
+    firstToThree();
 }
