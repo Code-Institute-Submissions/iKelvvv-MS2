@@ -191,6 +191,7 @@ a {
 
 /* Weapons Text */
 #weapon_txt {
+    padding-top: 20%;
     margin-bottom: 2.5%;
 }
 
@@ -300,6 +301,97 @@ footer {
     width: 100%;
 }
 
+/* Media query max width 1200px for small desktop view */
+@media screen and (max-width: 1200px) {
+}
+
+/* Media query max width 992px for small desktop view */
+@media screen and (max-width: 992px) {
+}
+
+/* Media query max width 768px for tablets */
+@media screen and (max-width: 768px) {
+}
+
+/* Media query max width 480px for small devices and phones */
+@media screen and (max-width: 480px) {
+    /* Heading style */
+    .title {
+        font-size: 180%;
+        margin-top: 1.5%;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    /* Game menu buttons */
+    .index-btn {
+        width: 50%;
+        font-size: 1.7rem;
+    }
+
+    #intro {
+        margin-top: 5;
+    }
+
+    .modalDialog > div {
+        width: 80%;
+        height: 85%;
+        font-size: 110%;
+    }
+
+    /* Score Board / Results */
+    #user-label {
+        font-size: 60%;
+    }
+
+    #computer-label {
+        font-size: 60%;
+    }
+
+    .score-board {
+        width: 70%;
+    }
+
+    #result_display {
+        font-size: 150%;
+    }
+
+    /* Player and CPU Area */
+    .player_area {
+        font-size: 90%;
+    }
+    .computer_area {
+        font-size: 90%;
+    }
+
+    /* Weapons Text */
+    #weapon_txt {
+        margin-top: 20%;
+        font-size: 130%;
+    }
+
+    #menu-btn {
+        margin-top: 2.5%;
+        width: 80%;
+    }
+
+    /* Gif */
+    .gif {
+        width: 80%;
+    }
+
+    /* Footer */
+    .footer i {
+        font-size: 300%;
+    }
+
+    footer {
+        margin-top: 5%;
+    }
+}
+
 /* Media query max width 320px for small mobile devices */
 @media screen and (max-width: 320px) {
     /* Heading style */
@@ -309,36 +401,25 @@ footer {
     }
 
     .logo {
-        width: 60%;
+        width: 70%;
     }
 
     /* Game menu buttons */
     .index-btn {
-        font-size: 1.3rem;
-        border-radius: 25px;
-        margin-top: 2%;
-        display: inline-block;
-        width: 30%;
+        width: 50%;
+    }
+
+    #intro {
+        margin-top: 15%;
     }
 
     .modalDialog > div {
         width: 80%;
-        height: 90%;
-        font-size: 90%;
-    }
-
-    /* Footer */
-    .footer i {
-        font-size: 190%;
-        margin: 1%;
-        padding: 3%;
+        height: 70%;
+        font-size: 100%;
     }
 
     /* Score Board / Results */
-    .badge {
-        font-size: 50%;
-    }
-
     #user-label {
         font-size: 50%;
     }
@@ -371,27 +452,24 @@ footer {
 
     .btn--big {
         margin: 0;
-        width: 28%;
     }
 
     #menu-btn {
         margin-top: 2.5%;
         width: 80%;
     }
-}
 
-/* Media query max width 480px for small devices and phones */
-@media screen and (max-width: 480px) {
-}
+    /* Gif */
+    .gif {
+        width: 80%;
+    }
 
-/* Media query max width 768px for tablets */
-@media screen and (max-width: 768px) {
-}
+    /* Footer */
+    .footer i {
+        font-size: 190%;
+    }
 
-/* Media query max width 992px for small desktop view */
-@media screen and (max-width: 992px) {
-}
-
-/* Media query max width 1200px for small desktop view */
-@media screen and (max-width: 1200px) {
+    footer {
+        margin-top: 15%;
+    }
 }

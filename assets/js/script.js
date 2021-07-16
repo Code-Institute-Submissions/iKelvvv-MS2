@@ -9,35 +9,35 @@ var computerChoice;
 
 function selectRock() {
     userChoice = "Rock";
-    userChoiceDisplay.innerHTML = '<button id="Rock" class="btn btn--big btn--blue"><i class="far fa-hand-rock weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Rock" class="btn--big btn--blue"><i class="far fa-hand-rock weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
 
 function selectPaper() {
     userChoice = "Paper";
-    userChoiceDisplay.innerHTML = '<button id="Paper" class="btn btn--big btn--black"><i class="far fa-hand-paper weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Paper" class="btn--big btn--black"><i class="far fa-hand-paper weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
 
 function selectScissors() {
     userChoice = "Scissors";
-    userChoiceDisplay.innerHTML = '<button id="Scissors" class="btn btn--big btn--red"><i class="far fa-hand-scissors weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Scissors" class="btn--big btn--red"><td></td><i class="far fa-hand-scissors weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
 
 function selectLizard() {
     userChoice = "Lizard";
-    userChoiceDisplay.innerHTML = '<button id="Lizard" class="btn btn--big btn--yellow"><i class="far fa-hand-lizard weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Lizard" class="btn--big btn--yellow"><i class="far fa-hand-lizard weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
 
 function selectSpock() {
     userChoice = "Spock";
-    userChoiceDisplay.innerHTML = '<button id="Spock" class="btn btn--big btn--green"><i class="far fa-hand-spock weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Spock" class="btn--big btn--green"><i class="far fa-hand-spock weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
@@ -49,23 +49,23 @@ function computerGenerator() {
 
     if (randomNumber === 1) {
         computerChoice = "Rock";
-        computerChoiceIcon = '<button id="Rock" class="btn btn--big btn--blue"><i class="far fa-hand-rock weapon"></i></button>';
+        computerChoiceIcon = '<button id="Rock" class="btn--big btn--blue"><i class="far fa-hand-rock weapon"></i></button>';
     }
     if (randomNumber === 2) {
         computerChoice = "Paper";
-        computerChoiceIcon = '<button id="Paper" class="btn btn--big btn--black"><i class="far fa-hand-paper weapon"></i></button>';
+        computerChoiceIcon = '<button id="Paper" class="btn--big btn--black"><i class="far fa-hand-paper weapon"></i></button>';
     }
     if (randomNumber === 3) {
         computerChoice = "Scissors";
-        computerChoiceIcon = '<button id="Scissors" class="btn btn--big btn--red"><i class="far fa-hand-scissors weapon"></i></button>';
+        computerChoiceIcon = '<button id="Scissors" class="btn--big btn--red"><i class="far fa-hand-scissors weapon"></i></button>';
     }
     if (randomNumber === 4) {
         computerChoice = "Lizard";
-        computerChoiceIcon = '<button id="Lizard" class="btn btn--big btn--yellow"><i class="far fa-hand-lizard weapon"></i></button>';
+        computerChoiceIcon = '<button id="Lizard" class="btn--big btn--yellow"><i class="far fa-hand-lizard weapon"></i></button>';
     }
     if (randomNumber === 5) {
         computerChoice = "Spock";
-        computerChoiceIcon = '<button id="Spock" class="btn btn--big btn--green"><i class="far fa-hand-spock weapon"></i></button>';
+        computerChoiceIcon = '<button id="Spock" class="btn--big btn--green"><i class="far fa-hand-spock weapon"></i></button>';
     }
     computerChoiceDisplay.innerHTML = computerChoiceIcon;
 }
