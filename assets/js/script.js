@@ -7,6 +7,7 @@ const userScore = document.getElementById("user-score");
 var userChoice;
 var computerChoice;
 
+// Selects the rock weapon icon
 function selectRock() {
     userChoice = "Rock";
     userChoiceDisplay.innerHTML = '<button id="Rock" class="btn--big btn--blue"><i class="far fa-hand-rock weapon"></i></button>';
@@ -14,6 +15,7 @@ function selectRock() {
     calculateWinner();
 }
 
+// Selects the paper weapon icon
 function selectPaper() {
     userChoice = "Paper";
     userChoiceDisplay.innerHTML = '<button id="Paper" class="btn--big btn--black"><i class="far fa-hand-paper weapon"></i></button>';
@@ -21,6 +23,7 @@ function selectPaper() {
     calculateWinner();
 }
 
+// Selects the scissors weapon icon
 function selectScissors() {
     userChoice = "Scissors";
     userChoiceDisplay.innerHTML = '<button id="Scissors" class="btn--big btn--red"><td></td><i class="far fa-hand-scissors weapon"></i></button>';
@@ -28,6 +31,7 @@ function selectScissors() {
     calculateWinner();
 }
 
+// Selects the lizard weapon icon
 function selectLizard() {
     userChoice = "Lizard";
     userChoiceDisplay.innerHTML = '<button id="Lizard" class="btn--big btn--yellow"><i class="far fa-hand-lizard weapon"></i></button>';
@@ -35,6 +39,7 @@ function selectLizard() {
     calculateWinner();
 }
 
+// Selects the spock weapon icon
 function selectSpock() {
     userChoice = "Spock";
     userChoiceDisplay.innerHTML = '<button id="Spock" class="btn--big btn--green"><i class="far fa-hand-spock weapon"></i></button>';
@@ -42,6 +47,7 @@ function selectSpock() {
     calculateWinner();
 }
 
+// Generates computer choice
 function computerGenerator() {
     var computerChoiceIcon;
 
@@ -70,6 +76,7 @@ function computerGenerator() {
     computerChoiceDisplay.innerHTML = computerChoiceIcon;
 }
 
+// Compares user and computer choice and calculates a winner
 function calculateWinner() {
     if (computerChoice === userChoice) {
         result = "It's a draw!";
@@ -182,6 +189,7 @@ function calculateWinner() {
     }
 }
 
+// Gets current computer score and increments 1
 function incrementComputerScore() {
     // Gets the current computer score from the DOM and increments it by 1
     let oldScore = computerScore.innerText;
@@ -193,6 +201,7 @@ function incrementComputerScore() {
     }
 }
 
+// Gets current user score and increments 1
 function incrementUserScore() {
     // Gets the current player score from the DOM and increments it by 1
     let oldScore = userScore.innerText;
