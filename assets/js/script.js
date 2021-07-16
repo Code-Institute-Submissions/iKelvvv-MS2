@@ -4,6 +4,9 @@ const resultDisplay = document.getElementById("result_display");
 const computerScore = document.getElementById("computer-score");
 const userScore = document.getElementById("user-score");
 
+let computerLabel = document.getElementById("computer-label");
+let playerLabel = document.getElementById("user-label");
+
 var userChoice;
 var computerChoice;
 
@@ -80,6 +83,8 @@ function computerGenerator() {
 function calculateWinner() {
     if (computerChoice === userChoice) {
         result = "It's a draw!";
+        computerLabel.style.backgroundColor = "#f4c300";
+        playerLabel.style.backgroundColor = "#f4c300";
         resultDisplay.innerHTML = result;
     }
     // Rock
@@ -195,7 +200,8 @@ function incrementComputerScore() {
     let oldScore = computerScore.innerText;
     computerScore.innerText = ++oldScore;
     let newScore = computerScore.innerHTML;
-
+    computerLabel.style.backgroundColor = "#009f3d";
+    playerLabel.style.backgroundColor = "#df0024";
     if (newScore == 3) {
         resultDisplay.innerHTML = "<img class='gif' src='assets/images/you_lose.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
     }
@@ -207,6 +213,8 @@ function incrementUserScore() {
     let oldScore = userScore.innerText;
     userScore.innerText = ++oldScore;
     let newScore = userScore.innerHTML;
+    computerLabel.style.backgroundColor = "#df0024";
+    playerLabel.style.backgroundColor = "#009f3d";
 
     if (newScore == 3) {
         resultDisplay.innerHTML = "<img class='gif' src='assets/images/winner.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
