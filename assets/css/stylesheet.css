@@ -94,10 +94,8 @@ body {
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     font-size: 1.5rem;
-    background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
-    background: -webkit-linear-gradient(#fff, #999);
-    background: -o-linear-gradient(#fff, #999);
+    background: #dbdbdb;
+    height: 100%;
 }
 
 .close {
@@ -123,6 +121,17 @@ body {
     background: #df0024;
 }
 
+/* Intro video*/
+#intro-vid {
+    display: block;
+    margin-top: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
 /* Form modal */
 .contact_form {
     color: black;
@@ -132,6 +141,7 @@ body {
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 1.5%;
+    font-size: 2rem;
 }
 
 .text_input {
@@ -152,11 +162,12 @@ body {
     width: 100%;
     margin: 0 auto;
     height: 5rem;
+    border: 2px solid black;
 }
 
 .submit_button {
     width: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 25px;
 }
 
