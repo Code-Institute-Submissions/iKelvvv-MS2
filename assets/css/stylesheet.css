@@ -301,7 +301,9 @@ footer {
 
 /* Win and lose gif */
 .gif {
-    width: 80%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Media query max width 1200px for small desktop view */
