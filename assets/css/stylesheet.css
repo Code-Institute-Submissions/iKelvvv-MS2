@@ -313,16 +313,21 @@ footer {
     transform: scale(1.5);
 }
 
+/* Win and lose gif */
+.gif {
+    width: 100%;
+}
+
 /* Media query max width 320px for small mobile devices */
 @media screen and (max-width: 320px) {
     /* Heading Styling*/
     .title {
-        font-size: 135%;
+        font-size: 120%;
         margin-top: 1.5%;
     }
 
     .logo {
-        width: 70%;
+        width: 100%;
     }
 
     /* Game menu buttons */
@@ -356,8 +361,16 @@ footer {
 
     /* Score Board / Results */
     .badge {
-        font-size: 40%;
+        font-size: 10%;
         padding: 10px 6px;
+    }
+
+    #user-label {
+        font-size: 40%;
+    }
+
+    #computer-label {
+        font-size: 40%;
     }
 
     .score-board {
@@ -376,12 +389,12 @@ footer {
     .player_area {
         margin-top: 2.5%;
         margin-bottom: 10%;
-        font-size: 90%;
+        font-size: 0%;
     }
     .computer_area {
         margin-top: 2.5%;
         margin-bottom: 10%;
-        font-size: 90%;
+        font-size: 10%;
     }
 
     /* Weapons Text */
@@ -473,13 +486,6 @@ footer {
         font-size: 120%;
         margin-top: 20%;
     }
-
-    /* Weapon Buttons */
-    .btn--big {
-        margin-top: 5%;
-        width: 25%;
-        margin: 0 auto;
-    }
 }
 
 /* Media query max width 768px for tablets */
@@ -562,13 +568,6 @@ footer {
     #weapon_txt {
         font-size: 160%;
         margin-top: 10%;
-    }
-
-    /* Weapon Buttons */
-    .btn--big {
-        margin-top: 5%;
-        width: 20%;
-        margin: 0 auto;
     }
 }
 
@@ -653,15 +652,4 @@ footer {
         font-size: 190%;
         margin-top: 10%;
     }
-
-    /* Weapon Buttons */
-    .btn--big {
-        margin-top: 5%;
-        width: 20%;
-        margin: 0 auto;
-    }
-}
-
-/* Media query max width 1200px for large desktop and device view */
-@media screen and (max-width: 1200px) {
 }
