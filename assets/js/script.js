@@ -71,119 +71,128 @@ function calculateWinner() {
     // Rock
     if (userChoice === "Rock" && computerChoice === "Lizard") {
         result = "Rock crushes Lizard, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Rock" && computerChoice === "Scissors") {
         result = "Rock crushes Scissors, you win!!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Rock" && computerChoice === "Spock") {
         result = "Spock vaporizes Rock, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     if (userChoice === "Rock" && computerChoice === "Paper") {
         result = "Paper covers Rock, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     // Lizard
     if (userChoice === "Lizard" && computerChoice === "Paper") {
         result = "Lizard eats Paper, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Lizard" && computerChoice === "Spock") {
         result = "Lizard poisons Spock, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Lizard" && computerChoice === "Rock") {
         result = "Rock crushes Lizard, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     if (userChoice === "Lizard" && computerChoice === "Scissors") {
         result = "Scissors decapitates Lizard, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     // Spock
     if (userChoice === "Spock" && computerChoice === "Scissors") {
         result = "Spock smashes Scissors, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Spock" && computerChoice === "Rock") {
         result = "Spock vaporizes Rock, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Spock" && computerChoice === "Paper") {
         result = "Paper disproves Spock, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     if (userChoice === "Spock" && computerChoice === "Lizard") {
         result = "Lizard poisons Spock, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     // Scissors
     if (userChoice === "Scissors" && computerChoice === "Paper") {
         result = "Scissors cuts Paper, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Scissors" && computerChoice === "Lizard") {
         result = "Scissors decapitates Lizard, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Scissors" && computerChoice === "Rock") {
         result = "Rock crushes Scissors, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     if (userChoice === "Scissors" && computerChoice === "Spock") {
         result = "Spock smashes Scissors, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     // Paper
     if (userChoice === "Paper" && computerChoice === "Rock") {
         result = "Paper covers Rock, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Paper" && computerChoice === "Spock") {
         result = "Paper disproves Spock, you win!";
+        resultDisplay.innerHTML = result;
         incrementUserScore();
     }
     if (userChoice === "Paper" && computerChoice === "Scissors") {
         result = "Scissors cuts Paper, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
     }
     if (userChoice === "Paper" && computerChoice === "Lizard") {
         result = " Lizard eats Paper, you lose!";
+        resultDisplay.innerHTML = result;
         incrementComputerScore();
-    }
-    resultDisplay.innerHTML = result;
-}
-
-function resetGame() {}
-
-function firstToThree() {
-    if (userScore.innerText > 3) {
-        userScore.innerText = 0;
-        computerScore.innerText = 0;
-        resultDisplay.innerHTML = "";
-        userChoiceDisplay.innerHTML = "";
-        computerChoiceDisplay.innerHTML = "";
-    } else if (computerScore.innerText > 3) {
-        userScore.innerText = 0;
-        computerScore.innerText = 0;
-        resultDisplay.innerHTML = "";
-        userChoiceDisplay.innerHTML = "";
-        computerChoiceDisplay.innerHTML = "";
     }
 }
 
 function incrementComputerScore() {
     // Gets the current computer score from the DOM and increments it by 1
-    let oldScore = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("computer-score").innerText = ++oldScore;
-    firstToThree();
+    let oldScore = computerScore.innerText;
+    computerScore.innerText = ++oldScore;
+    let newScore = computerScore.innerHTML;
+
+    if (newScore == 3) {
+        resultDisplay.innerHTML = "<img class='gif' src='assets/images/you_lose.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
+    }
 }
 
 function incrementUserScore() {
     // Gets the current player score from the DOM and increments it by 1
-    let oldScore = parseInt(document.getElementById("user-score").innerText);
-    document.getElementById("user-score").innerText = ++oldScore;
-    firstToThree();
+    let oldScore = userScore.innerText;
+    userScore.innerText = ++oldScore;
+    let newScore = userScore.innerHTML;
+
+    if (newScore == 3) {
+        resultDisplay.innerHTML = "<img class='gif' src='assets/images/winner.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
+    }
 }
