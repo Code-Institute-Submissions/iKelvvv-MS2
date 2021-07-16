@@ -354,6 +354,47 @@ footer {
     .footer {
         margin-top: 35%;
     }
+
+    /* Score Board / Results */
+    .badge {
+        font-size: 40%;
+        padding: 10px 6px;
+    }
+
+    .score-board {
+        width: 50%;
+        font-size: 40px;
+        margin-top: 5%;
+    }
+
+    #result_display {
+        font-size: 150%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Player and CPU Area */
+    .player_area {
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        font-size: 90%;
+    }
+    .computer_area {
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        font-size: 90%;
+    }
+
+    /* Weapons Text */
+    #weapon_txt {
+        font-size: 120%;
+    }
+
+    /* Weapon Buttons */
+    .btn--big {
+        margin-top: 5%;
+        width: 30%;
+    }
 }
 
 /* Media query max width 480px for small devices and phones */
