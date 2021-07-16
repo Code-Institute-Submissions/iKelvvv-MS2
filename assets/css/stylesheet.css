@@ -16,7 +16,7 @@ body {
 .title {
     text-align: center;
     font-size: 250%;
-    margin-top: 0.5%;
+    margin-top: 1.5%;
 }
 
 .logo {
@@ -121,6 +121,7 @@ body {
     height: 5rem;
 }
 
+/* Rules modal */
 #rules_diagram {
     margin-top: 2.5%;
     width: 65%;
@@ -194,18 +195,6 @@ a {
 }
 
 /* Weapon Buttons */
-.btn {
-    width: 200%;
-    height: 100%;
-    font-family: "Benne", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: white;
-}
-
-.btn:focus {
-    outline: none;
-}
 
 .btn--big {
     padding-top: 10px;
@@ -216,13 +205,6 @@ a {
     font-size: 3.2rem;
     margin: 0 30px;
     transition: all 0.5s;
-}
-
-.btn--big::after {
-    content: attr(data-type);
-    font-size: 1rem;
-    color: #445361;
-    position: relative;
 }
 
 .btn--blue {
@@ -320,6 +302,82 @@ footer {
 
 /* Media query max width 320px for small mobile devices */
 @media screen and (max-width: 320px) {
+    /* Heading style */
+    .title {
+        font-size: 135%;
+        margin-top: 1.5%;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    /* Game menu buttons */
+    .index-btn {
+        font-size: 1.3rem;
+        border-radius: 25px;
+        margin-top: 2%;
+        display: inline-block;
+        width: 30%;
+    }
+
+    .modalDialog > div {
+        width: 80%;
+        height: 90%;
+        font-size: 90%;
+    }
+
+    /* Footer */
+    .footer i {
+        font-size: 190%;
+        margin: 1%;
+        padding: 3%;
+    }
+
+    /* Score Board / Results */
+    .badge {
+        font-size: 50%;
+    }
+
+    #user-label {
+        font-size: 50%;
+    }
+
+    #computer-label {
+        font-size: 50%;
+    }
+
+    .score-board {
+        width: 70%;
+    }
+
+    #result_display {
+        font-size: 130%;
+    }
+
+    /* Player and CPU Area */
+    .player_area {
+        font-size: 85%;
+    }
+    .computer_area {
+        font-size: 85%;
+    }
+
+    /* Weapons Text */
+    #weapon_txt {
+        margin-top: 40%;
+        font-size: 100%;
+    }
+
+    .btn--big {
+        margin: 0;
+        width: 28%;
+    }
+
+    #menu-btn {
+        margin-top: 2.5%;
+        width: 80%;
+    }
 }
 
 /* Media query max width 480px for small devices and phones */
@@ -332,4 +390,8 @@ footer {
 
 /* Media query max width 992px for small desktop view */
 @media screen and (max-width: 992px) {
+}
+
+/* Media query max width 1200px for small desktop view */
+@media screen and (max-width: 1200px) {
 }
