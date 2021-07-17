@@ -90,12 +90,11 @@ body {
     width: 400px;
     position: relative;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 2.5%;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     font-size: 1.5rem;
     background: #dbdbdb;
-    height: 100%;
 }
 
 .close {
@@ -377,14 +376,7 @@ footer {
     }
 
     .modalDialog > div {
-        width: 80%;
-        font-size: 150%;
-        position: relative;
-        margin: 0 auto;
-        margin-top: 10%;
-        padding: 5px 20px 13px 20px;
-        border-radius: 10px;
-        background: #fff;
+        font-size: 170%;
     }
 
     #rules_diagram {
@@ -474,14 +466,7 @@ footer {
     }
 
     .modalDialog > div {
-        width: 80%;
-        font-size: 120%;
-        position: relative;
-        margin: 0 auto;
-        margin-top: 10%;
-        padding: 5px 20px 13px 20px;
-        border-radius: 10px;
-        background: #fff;
+        font-size: 150%;
     }
 
     #rules_diagram {
@@ -563,14 +548,7 @@ footer {
     }
 
     .modalDialog > div {
-        width: 80%;
-        font-size: 110%;
-        position: relative;
-        margin: 0 auto;
-        margin-top: 10%;
-        padding: 5px 20px 13px 20px;
-        border-radius: 10px;
-        background: #fff;
+        font-size: 120%;
     }
 
     #rules_diagram {
@@ -652,15 +630,13 @@ footer {
         margin-top: 5%;
     }
 
+    #intro-vid {
+        height: 10rem;
+    }
+
     .modalDialog > div {
-        width: 80%;
         font-size: 110%;
-        position: relative;
-        margin: 0 auto;
-        margin-top: 10%;
-        padding: 5px 20px 13px 20px;
-        border-radius: 10px;
-        background: #fff;
+        width: 300px;
     }
 
     /* Score Board / Results */
@@ -735,15 +711,14 @@ footer {
         margin-top: 15%;
     }
 
+    /* Intro video*/
+    #intro-vid {
+        height: 15rem;
+    }
+
     .modalDialog > div {
         width: 80%;
-        font-size: 100%;
-        position: relative;
-        margin: 0 auto;
-        margin-top: 10%;
-        padding: 5px 20px 13px 20px;
-        border-radius: 10px;
-        background: #fff;
+        font-size: 75%;
     }
 
     /* Score Board / Results */
