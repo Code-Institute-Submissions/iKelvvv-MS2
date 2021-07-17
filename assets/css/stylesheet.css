@@ -134,7 +134,7 @@ body {
 /* Form modal */
 .contact_form {
     color: black;
-    background-color: white;
+    background-color: #dbdbdb;
     max-width: 400px;
     padding: 30px;
     border-radius: 10px;
