@@ -275,8 +275,6 @@ For every element that I added to my HTML, I would add the basic CSS to my style
 
 I also added basic functions for my JavaScript that were empty so i could map out the logic of the game.
 
-## Automated testing
-
 ### Google Developer Tools
 
 For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
