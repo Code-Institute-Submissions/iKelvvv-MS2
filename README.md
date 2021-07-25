@@ -313,7 +313,7 @@ Please find below my testing process for all pages via mobile and web:
 
 ### All Pages
 
--   Animated background - I tested this on Chrome and Safari on all devices. There is an issue with this on Safari when on a desktop.
+-   Animated background - I tested this on Chrome and Safari on all devices.
 
     -   Text:
 
@@ -431,8 +431,6 @@ Losing Page:
 -   The player/CPU labels on the scoreboard for the game page is not vertically aligned. This was rectified by add padding to the bottom.
 
 -   The placeholder text for the contact form popup modal to close to the left and top side, making the character of the input text hard to read. The was rectified by adding padding to the left side and padding to the top for the message input.
-
--   The background animation is not displaying in Safari on web view but is working on mobile and tablet.
 
 <a name="credits"></a>
 
