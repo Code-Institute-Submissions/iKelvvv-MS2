@@ -207,6 +207,39 @@ I decided to use Benne as my font of choice with sans serif as my backup font fo
 
 [Go to the top](#table-of-contents)
 
+### All Pages
+
+-   Title and logo is placed at the top of the page.
+-   Animated background - to give more of a user experience instead of a plain background.
+
+### Landing Page
+
+-   Introduction button - This button opens up a popup modal. In this modal it gives a introduction of where the game was initially created. There is also an embedded video of the scene at which the game was created.
+
+-   Rules button - This button opens up a popup modal. In this modal it explains all the rules for the game. Listing the winning possibilities of each weapon. There is also a diagram to show the winning outcomes.
+
+-   Start game button - This button will allow the user to navigate to the game page.
+
+-   Contact button - This button opens up a popup modal. In this modal the user can fill out a contact form to contact the owner of the website/game.
+
+-   Footer - The footer is placed at the bottom of this page. This contains all social media links that opens up in a new tab. When hovering over each icon, the icon magnifies.
+
+### Game Page
+
+-   Results - The results section of the page shows the user the outcome of the round.
+
+-   Scoreboard - The scoreboard shows the current score between user and computer. When the player/CPU wins the player or CPU badge will turn green, this indicates that the player/CPU has won the round. When the player/CPU loses the player or CPU badge will turn red, this indicates that the player/CPU has lost the round. The badges will turn yellow if the round is a tie.
+
+-   Select your weapon - This section allows the player to select their desired weapon. There are 5 icons rock, paper, scissors, lizard, spock. When hovering over each weapon the icon background changes colour to give the user confirmation before selecting the weapon. The icon colours are also in the order of the Olympic rings.
+
+-   Player/Computer choices - This section shows the selection of weapon made by the player and the generated weapon selection for the computer. This uses the same icons as the initial weapon selection part.
+
+-   Main menu button - This button will take the user back to the index page.
+
+-   Winning GIF - If the user has won 3 rounds, the game ends with a winner's GIF. At this point, this removes all the weapon icons and results and left with a new game button, scoreboard and main menu button. This forces the user to restart the game.
+
+-   Losing GIF - If the computer beaten the user to 3 rounds, the game ends with a loser's GIF. At this point, this removes all the weapon icons and results and left with a new game button, scoreboard and main menu button. This forces the user to restart the game.
+
 <a name="technologies-used"></a>
 
 ## 3. Technologies Used
