@@ -404,6 +404,23 @@ I used GitHub pages to deploy my final project. To do this I had to:
 
 [Go to the top](#table-of-contents)
 
+Please fine below a screenshot of each page:
+
+Home page UI:
+![home page preview](assets/images/index_page_end_product.png)
+
+Start Game Page UI:
+![game page preview](assets/images/game_page_end_product.png)
+
+Mid Game Page UI:
+![mid game page preview](assets/images/mid_game_page_end_product.png)
+
+Winning Page:
+![winning page preview](assets/images/winning_gif_end_product.png)
+
+Losing Page:
+![losing page preview](assets/images/losing_gif_end_product.png)
+
 <a name="known-bugs"></a>
 
 # 8. Known Bugs
