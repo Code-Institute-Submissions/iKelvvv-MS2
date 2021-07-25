@@ -5,9 +5,9 @@
 Welcome to my second project. This project is a Rock, Paper, Scissors, Lizard, Spock game that involves programming languages like HTML5, CSS3 and JavaScript.
 This game will demonstrate basic JavaScript functionality.
 
-A live website can be found [here]().
+A live website can be found [here](https://ikelvvv.github.io/MS2/).
 
-![website preview]()
+![website preview](assets/images/responsive_screenshot.png)
 
 # Table of Contents
 
