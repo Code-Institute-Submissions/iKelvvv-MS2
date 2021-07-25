@@ -325,8 +325,12 @@ I had not errors on my JavaScript files.
 [Go to the top](#table-of-contents)
 
 -   The close "x" button on the popup modals for the index page is not centered. This was rectified by adding padding to the top of the close button.
+
 -   The player/CPU labels on the scoreboard for the game page is not vertically aligned. This was rectified by add padding to the bottom.
+
 -   The placeholder text for the contact form popup modal to close to the left and top side, making the character of the input text hard to read. The was rectified by adding padding to the left side and padding to the top for the message input.
+
+-   The background animation is not displaying in Safari.
 
 <a name="credits"></a>
 
@@ -336,4 +340,12 @@ I had not errors on my JavaScript files.
 
 ### Code
 
+-   The popup modals come from [JS Fiddle](https://jsfiddle.net/kumarmuthaliar/GG9Sa/1/)
+-   The background animation came from [Code Pen](https://codepen.io/anon/embed/RZogMa?height=500&theme-id=1&slug-hash=RZogMa&default-tab=result#css-box)
+
 ### Content
+
+-   All images came from [Google Images](https://www.google.com/imghp?hl=en)
+-   All weapon icons came from [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+-   The winner and loser GIFs came from [GIPHY](https://giphy.com/)
+-   The game rules came from [Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
