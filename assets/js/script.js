@@ -195,14 +195,16 @@ function calculateWinner() {
     }
 }
 
-// Gets current computer score and increments 1
+// Gets current computer score and increments by 1
 function incrementComputerScore() {
     // Gets the current computer score from the DOM and increments it by 1
     let oldScore = computerScore.innerText;
     computerScore.innerText = ++oldScore;
     let newScore = computerScore.innerHTML;
+    // Styles the player and computer badges to red or green dependant on the winner
     computerLabel.style.backgroundColor = "#009f3d";
     playerLabel.style.backgroundColor = "#df0024";
+
     if (newScore == 3) {
         resultDisplay.innerHTML = "<img class='gif' src='assets/images/you_lose.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
         const choiceArea = document.getElementsByClassName("choice-area");
@@ -222,6 +224,7 @@ function incrementUserScore() {
     let oldScore = userScore.innerText;
     userScore.innerText = ++oldScore;
     let newScore = userScore.innerHTML;
+    // Styles the player and computer badges to red or green dependant on the winner
     computerLabel.style.backgroundColor = "#df0024";
     playerLabel.style.backgroundColor = "#009f3d";
 
