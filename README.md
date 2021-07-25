@@ -76,6 +76,10 @@ The game should be engaging and clearly display a winner and loser.
 
 ### Trends of modern games:
 
+-   Mobile gaming (gaming on the go)
+-   Nostalgia gaming with remastered games
+-   Virtual reality
+
 ### Strategy Table
 
 | Opportunity/Problem/Feature              | Importance | Viability/Feasibility |
