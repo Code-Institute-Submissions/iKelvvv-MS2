@@ -1,4 +1,4 @@
-# Title
+# Rock, Paper, Scissors, Lizard, Spock Olympic Games Edition
 
 ## Introduction
 
@@ -271,13 +271,32 @@ I decided to use Benne as my font of choice with sans serif as my backup font fo
 
 [Go to the top](#table-of-contents)
 
+For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
+
+I also added basic functions for my JavaScript that were empty so i could map out the logic of the game.
+
 ## Automated testing
 
 ### Google Developer Tools
 
+For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
+
+For all JavaScript functions i console logged each function to make sure that the output was correct.
+
 ### Responsive Tools
 
+I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all my pages are responsive to all devices.
+
 ### W3C Validator Tools
+
+I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
+I had no errors on the index and start_game page.
+
+I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
+I had no errors on my CSS file.
+
+I used [JS Hint](https://jshint.com/) to check for any errors within my JavaScript file.
+I had not errors on my JavaScript files.
 
 ## Manual Testing
 
