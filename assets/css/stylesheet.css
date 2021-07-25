@@ -198,6 +198,7 @@ a {
     text-transform: uppercase;
     font-size: 70%;
     padding: 10px 10px;
+    border-radius: 10px;
 }
 
 #user-label {
