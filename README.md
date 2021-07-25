@@ -35,6 +35,7 @@ A live website can be found [here](https://ikelvvv.github.io/MS2/).
 # 1. UX
 
 [Go to the top](#table-of-contents)
+
 Everybody knows the basic Rock, Paper, Scissors game, but not everyone knows about the Rock, Paper, Scissors, Liard, Spock game which originated from the TV show, Big Bang Theory. This game adds 2 extra weapons, Lizard and Spock. This changes the who dynamic of the game giving the player/s more variety to win.
 
 <a name="strategy"></a>
@@ -52,9 +53,9 @@ I want the player to be engaged with the game.
 
 -   First Time Visitor Goals
 
-*   As a first time visitor, I want to be engaged with the concept of the game.
-*   As a first time visitor, I want to be able to easily understand the rules of the game.
-*   As a first time visitor, I want to play the game to win.
+*   As a first-time visitor, I want to be engaged with the concept of the game.
+*   As a first-time visitor, I want to be able to easily understand the rules of the game.
+*   As a first-time visitor, I want to play the game to win.
 
 -   Returning Visitor Goals
 
@@ -67,9 +68,9 @@ I want the player to be engaged with the game.
 
 ### User Expectations:
 
-The game should be engaging and clearly display a winner and loser.
+The game should be engaging and display a winner and loser.
 
--   The weapon selection is clear and obvious.
+-   The weapon selection is clear.
 -   The user interface is easy to navigate.
 -   The game is responsive on all devices including mobile, tablet and desktop.
 -   To have the ability to contact the creator of the game.
@@ -105,7 +106,7 @@ As I am unable to include all of the features from the strategy table. I will ph
 -   Score tracking system
 -   The ability to play against the computer
 -   Responsive design
--   Contact me form
+-   Contact form
 -   Rules popup modal
 -   Introduction popup modal
 
@@ -209,20 +210,20 @@ I decided to use Benne as my font of choice with sans serif as my backup font fo
 
 ### All Pages
 
--   Title and logo is placed at the top of the page.
+-   Title and logo are placed at the top of the page.
 -   Animated background - to give more of a user experience instead of a plain background.
 
 ### Landing Page
 
--   Introduction button - This button opens up a popup modal. In this modal it gives a introduction of where the game was initially created. There is also an embedded video of the scene at which the game was created.
+-   Introduction button - This button opens up a popup modal. This modal gives an introduction to where the game was initially created. There is also an embedded video of the scene at which the game was created.
 
--   Rules button - This button opens up a popup modal. In this modal it explains all the rules for the game. Listing the winning possibilities of each weapon. There is also a diagram to show the winning outcomes.
+-   Rules button - This button opens up a popup modal. This modal explains all the rules for the game. Listing the winning possibilities of each weapon. There is also a diagram to show the winning outcomes.
 
 -   Start game button - This button will allow the user to navigate to the game page.
 
--   Contact button - This button opens up a popup modal. In this modal the user can fill out a contact form to contact the owner of the website/game.
+-   Contact button - This button opens up a popup modal. In this modal, the user can fill out a contact form to contact the owner of the website/game.
 
--   Footer - The footer is placed at the bottom of this page. This contains all social media links that opens up in a new tab. When hovering over each icon, the icon magnifies.
+-   Footer - The footer is placed at the bottom of this page. This contains all social media links that open up in a new tab. When hovering over each icon, the icon magnifies.
 
 ### Game Page
 
@@ -232,13 +233,13 @@ I decided to use Benne as my font of choice with sans serif as my backup font fo
 
 -   Select your weapon - This section allows the player to select their desired weapon. There are 5 icons rock, paper, scissors, lizard, spock. When hovering over each weapon the icon background changes colour to give the user confirmation before selecting the weapon. The icon colours are also in the order of the Olympic rings.
 
--   Player/Computer choices - This section shows the selection of weapon made by the player and the generated weapon selection for the computer. This uses the same icons as the initial weapon selection part.
+-   Player/Computer choices - This section shows the selection of weapons made by the player and the generated weapon selection for the computer. This uses the same icons as the initial weapon selection part.
 
 -   Main menu button - This button will take the user back to the index page.
 
 -   Winning GIF - If the user has won 3 rounds, the game ends with a winner's GIF. At this point, this removes all the weapon icons and results and left with a new game button, scoreboard and main menu button. This forces the user to restart the game.
 
--   Losing GIF - If the computer beaten the user to 3 rounds, the game ends with a loser's GIF. At this point, this removes all the weapon icons and results and left with a new game button, scoreboard and main menu button. This forces the user to restart the game.
+-   Losing GIF - If the computer has beaten the user to 3 rounds, the game ends with a loser's GIF. At this point, this removes all the weapon icons and results and left with a new game button, scoreboard and main menu button. This forces the user to restart the game.
 
 <a name="technologies-used"></a>
 
@@ -279,7 +280,7 @@ I also added basic functions for my JavaScript that were empty so i could map ou
 
 For every element that I added to my HTML, I would add the basic CSS to my stylesheet. I would then use the inspect element to try different styles. Once I've got it to my liking I would copy the CSS from google into my stylesheet. This allows me to keep track of the code I am using.
 
-For all JavaScript functions i console logged each function to make sure that the output was correct.
+For all JavaScript functions, i console logged each function to make sure that the output was correct.
 
 ### Responsive Tools
 
@@ -288,13 +289,13 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all 
 ### W3C Validator Tools
 
 I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
-I had no errors on the index and start_game page.
+I had no errors in the index and start_game page.
 
 I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
-I had no errors on my CSS file.
+I had no errors in my CSS file.
 
 I used [JS Hint](https://jshint.com/) to check for any errors within my JavaScript file.
-I had not errors on my JavaScript files.
+I had no errors in my JavaScript files.
 
 ## Manual Testing
 
@@ -320,16 +321,16 @@ Please find below my testing process for all pages via mobile and web:
 
     -   Media:
 
-        -   I checked that all images and videos on this page load. Making sure that the video played and that all images have alt text if media does not load. It worked as expected.
+        -   I checked that all images and videos on this page-load. Making sure that the video is played and that all images have alt text if media does not load. It worked as expected.
 
     -   Responsiveness
-        -   I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find break points. It worked as expected.
+        -   I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find breakpoints. It worked as expected.
 
 ### Landing Page
 
 -   Game Menu Buttons
 
-    -   Introduction button - When selecting the "introduction" button, a popup modal appears with an short summary of the game with an embedded video. This worked as expected.
+    -   Introduction button - When selecting the "introduction" button, a popup modal appears with a short summary of the game with an embedded video. This worked as expected.
     -   Rules button - When selecting the "rules" button, a popup modal appears with rules of the game and a diagram showing the winning outcomes. This worked as expected.
     -   Start game button - When selecting the "start game" button, the browser redirects to the game page. This worked as expected.
     -   Contact button - when selecting the "contact" button, a popup modal appears with a contact form. This worked as expected.
@@ -367,14 +368,14 @@ There were some elements I changed, re-positioned and added from my original wir
 
 ### Landing Page
 
--   I didn't change anything on the landing page. All elements were exactly how i imagined from the initial wireframe.
+-   I didn't change anything on the landing page. All elements were exactly how I imagined from the initial wireframe.
 
 ### Game Page
 
 -   From the original start game wireframe, there wasn't a results section to caption the winning outcomes. I added this in so the user knows exactly the outcome of the round.
 -   Added player and CPU labels to the scoreboard.
--   Added the Olympic rings logo into this page so the weapons colours can correspond to the colours.
--   The player and computer choice circles were removed to save space, i decided to show display them under the player/computer choice headings.
+-   Added the Olympic rings logo to this page so the weapons colours can correspond to the colours.
+-   The player and computer choice circles were removed to save space, I decided to show display them under the player/computer choice headings.
 -   The scoreboard labels change colour depending on the outcome of the round instead of the player/computer selection circle.
 -   Added game winning/losing GIFs.
 
@@ -425,7 +426,7 @@ Losing Page:
 
 [Go to the top](#table-of-contents)
 
--   The close "x" button on the popup modals for the index page is not centered. This was rectified by adding padding to the top of the close button.
+-   The close "x" button on the popup modals for the index page is not centred. This was rectified by adding padding to the top of the close button.
 
 -   The player/CPU labels on the scoreboard for the game page is not vertically aligned. This was rectified by add padding to the bottom.
 
