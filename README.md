@@ -365,11 +365,38 @@ Please find below my testing process for all pages via mobile and web:
 
 [Go to the top](#table-of-contents)
 
+There were some elements I changed, re-positioned and added from my original wireframes as they were more visually appealing.
+
+### Landing Page
+
+-   I didn't change anything on the landing page. All elements were exactly how i imagined from the initial wireframe.
+
+### Game Page
+
+-   From the original start game wireframe, there wasn't a results section to caption the winning outcomes. I added this in so the user knows exactly the outcome of the round.
+-   Added player and CPU labels to the scoreboard.
+-   Added the Olympic rings logo into this page so the weapons colours can correspond to the colours.
+-   The player and computer choice circles were removed to save space, i decided to show display them under the player/computer choice headings.
+-   The scoreboard labels change colour depending on the outcome of the round instead of the player/computer selection circle.
+-   Added game winning/losing GIFs.
+
 <a name="deployment"></a>
 
 # 6. Deployment
 
 [Go to the top](#table-of-contents)
+
+I used GitHub pages to deploy my final project. To do this I had to:
+
+1. Create a repository on GitHub.
+2. Clone the repository on your chosen source code editor (Visual Studio Code in my case) using the clone link.
+3. Add files to Git (staging area) and use the Visual Studio Code to commit changes.
+4. Use the terminal within Visual Studio Code to push the code.
+5. Go to GitHub and load your repository.
+6. Select settings.
+7. Select pages on the left menu bar.
+8. Click on the master branch.
+9. This will now generate a link with your website live.
 
 <a name="end-product"></a>
 
