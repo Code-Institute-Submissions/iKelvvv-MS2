@@ -300,6 +300,65 @@ I had not errors on my JavaScript files.
 
 ## Manual Testing
 
+I have tested my site on Safari and google chrome on multiple devices.
+I also used [JS Fiddle](https://jsfiddle.net/) as a playground to test all of my code before staging and committing any changes.
+
+These include:
+
+-   iPhone X
+-   iPhone XS Max
+-   iPad Pro
+-   Macbook Pro
+
+Please find below my testing process for all pages via mobile and web:
+
+### All Pages
+
+-   Animated background - I tested this on Chrome and Safari on all devices. There is an issue with this on Safari when on a desktop.
+
+    -   Text:
+
+        -   I checked that all text is in the correct and consistent size and font. I also checked that there were no typos.
+
+    -   Media:
+
+        -   I checked that all images and videos on this page load. Making sure that the video played and that all images have alt text if media does not load. It worked as expected.
+
+    -   Responsiveness
+        -   I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find break points. It worked as expected.
+
+### Landing Page
+
+-   Game Menu Buttons
+
+    -   Introduction button - When selecting the "introduction" button, a popup modal appears with an short summary of the game with an embedded video. This worked as expected.
+    -   Rules button - When selecting the "rules" button, a popup modal appears with rules of the game and a diagram showing the winning outcomes. This worked as expected.
+    -   Start game button - When selecting the "start game" button, the browser redirects to the game page. This worked as expected.
+    -   Contact button - when selecting the "contact" button, a popup modal appears with a contact form. This worked as expected.
+
+-   Footer
+
+    -   Facebook - When selecting the Facebook icon, a new tab opens and redirects to the Facebook website. It worked as expected.
+    -   Twitter - When selecting the Twitter icon, a new tab opens and redirects to the Twitter website. It worked as expected.
+    -   YouTube - When selecting the YouTube icon, a new tab opens and redirects to the YouTube website. It worked as expected.
+    -   Instagram - When selecting the Instagram icon, a new tab opens and redirects to the Instagram website. It worked as expected.
+
+### Game Page
+
+-   Results - I checked that the result output is displaying the correct caption for the winning / losing outcomes.
+
+-   Scoreboard - I checked that the score board increments the correct score for player and computer.
+
+-   Select your weapon - I checked that the icons are all the same size and display the correct colours when hovering over them.
+
+-   Player/Computer choices - I checked that the player button selected appears in the user choice and that the generated computer choice is displaying correctly.
+
+-   Main menu button - When selecting the "main menu" button, the browser redirects to the index page.
+
+-   Winning GIF - I checked that the winning GIF is displaying correcting on all devices, ensuring that the GIF is responsive.
+
+-   Losing GIF - I checked that the losing GIF is displaying correcting on all devices, ensuring that the GIF is responsive.
+
 <a name="development-cycle"></a>
 
 # 5. Development Cycle
@@ -330,7 +389,7 @@ I had not errors on my JavaScript files.
 
 -   The placeholder text for the contact form popup modal to close to the left and top side, making the character of the input text hard to read. The was rectified by adding padding to the left side and padding to the top for the message input.
 
--   The background animation is not displaying in Safari.
+-   The background animation is not displaying in Safari on web view but is working on mobile and tablet.
 
 <a name="credits"></a>
 
