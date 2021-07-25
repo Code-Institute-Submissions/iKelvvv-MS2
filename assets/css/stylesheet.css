@@ -194,7 +194,7 @@ a {
     color: white;
     text-transform: uppercase;
     font-size: 70%;
-    padding: 10px 6px;
+    padding: 10px 10px;
 }
 
 #user-label {
@@ -202,6 +202,7 @@ a {
     top: 50%;
     left: -5%;
     transform: translate(-10%, -50%);
+    padding-bottom: 1%;
 }
 
 #computer-label {
@@ -209,6 +210,7 @@ a {
     top: 50%;
     right: -5%;
     transform: translate(10%, -50%);
+    padding-bottom: 1%;
 }
 
 .score-board {
