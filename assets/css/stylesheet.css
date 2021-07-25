@@ -155,6 +155,7 @@ body {
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
+    padding-left: 1.5%;
 }
 
 #feedback {
@@ -166,6 +167,8 @@ body {
     margin: 0 auto;
     height: 5rem;
     border: 2px solid black;
+    padding-left: 1.5%;
+    padding-top: 1%;
 }
 
 .submit_button {
