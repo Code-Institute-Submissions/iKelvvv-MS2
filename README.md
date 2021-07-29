@@ -141,52 +141,52 @@ There are 2 versions of each wireframe as one shows the design on a web browser 
 ### Wire-frames
 
 Web browser index page:
-[![index_web](documentation-assets/index_web.png)](documentation-assets/index_web.png)
+[![index_web](documentation-assets/wireframe-images/index_web.png)](documentation-assets/wireframe-images/index_web.png)
 
 Mobile index page:
-[![index_mobile](documentation-assets/index_mobile.png)](documentation-assets/index_mobile.png)
+[![index_mobile](documentation-assets/wireframe-images/index_mobile.png)](documentation-assets/wireframe-images/index_mobile.png)
 
 Web browser introduction modal:
-[![introduction_modal_web](documentation-assets/introduction_modal_web.png)](documentation-assets/introduction_modal_web.png)
+[![introduction_modal_web](documentation-assets/wireframe-images/introduction_modal_web.png)](documentation-assets/wireframe-images/introduction_modal_web.png)
 
 Mobile introduction modal:
-[![introduction_modal_mobile](documentation-assets/introduction_modal_mobile.png)](documentation-assets/introduction_modal_mobile.png)
+[![introduction_modal_mobile](documentation-assets/wireframe-images/introduction_modal_mobile.png)](documentation-assets/wireframe-images/introduction_modal_mobile.png)
 
 Web browser rules modal:
-[![rules_modal_web](documentation-assets/rules_popup_web.png)](documentation-assets/rules_popup_web.png)
+[![rules_modal_web](documentation-assets/wireframe-images/rules_modal_web.png)](documentation-assets/wireframe-images/rules_modal_web.png)
 
 Mobile rules modal:
-[![rules_modal_mobile](documentation-assets/rules_modal_mobile.png)](documentation-assets/rules_modal_mobile.png)
+[![rules_modal_mobile](documentation-assets/wireframe-images/rules_modal_mobile.png)](documentation-assets/wireframe-images/rules_modal_mobile.png)
 
 Web browser contact modal:
-[![contact_modal_web](documentation-assets/contact_modal_web.png)](documentation-assets/contact_modal_web.png)
+[![contact_modal_web](documentation-assets/wireframe-images/contact_modal_web.png)](documentation-assets/wireframe-images/contact_modal_web.png)
 
 Mobile contact modal:
-[![contact_modal_mobile](documentation-assets/contact_modal_mobile.png)](documentation-assets/contact_modal_mobile.png)
+[![contact_modal_mobile](documentation-assets/wireframe-images/contact_modal_mobile.png)](documentation-assets/wireframe-images/contact_modal_mobile.png)
 
 Web browser start game:
-[![start_game_web](documentation-assets/start_game_web.png)](documentation-assets/start_game_web.png)
+[![start_game_web](documentation-assets/wireframe-images/start_game_web.png)](documentation-assets/wireframe-images/start_game_web.png)
 
 Mobile start game:
-[![start_game_web](documentation-assets/start_game_mobile.png)](documentation-assets/start_game_mobile.png)
+[![start_game_web](documentation-assets/wireframe-images/start_game_mobile.png)](documentation-assets/wireframe-images/start_game_mobile.png)
 
 Web browser player win:
-[![player_win_web](documentation-assets/player_win_web.png)](documentation-assets/player_win_web.png)
+[![player_win_web](documentation-assets/wireframe-images/player_win_web.png)](documentation-assets/wireframe-images/player_win_web.png)
 
 Mobile player win:
-[![player_win_mobile](documentation-assets/player_win_mobile.png)](documentation-assets/player_win_mobile.png)
+[![player_win_mobile](documentation-assets/wireframe-images/player_win_mobile.png)](documentation-assets/wireframe-images/player_win_mobile.png)
 
 Web browser player lost:
-[![player_lost_web](documentation-assets/player_lost_web.png)](documentation-assets/player_lost_web.png)
+[![player_lost_web](documentation-assets/wireframe-images/player_lost_web.png)](documentation-assets/wireframe-images/player_lost_web.png)
 
 Mobile player lost:
-[![player_lost_mobile](documentation-assets/player_lost_mobile.png)](documentation-assets/player_lost_mobile.png)
+[![player_lost_mobile](documentation-assets/wireframe-images/player_lost_mobile.png)](documentation-assets/wireframe-images/player_lost_mobile.png)
 
 Web browser player tie:
-[![player_tie_web](documentation-assets/tie_page_web.png)](documentation-assets/tie_page_web.png)
+[![player_tie_web](documentation-assets/wireframe-images/tie_page_web.png)](documentation-assets/wireframe-images/tie_page_web.png)
 
 Mobile player tie:
-[![player_tie_mobile](documentation-assets/tie_page_mobile.png)](documentation-assets/tie_page_mobile.png)
+[![player_tie_mobile](documentation-assets/wireframe-images/tie_page_mobile.png)](documentation-assets/wireframe-images/tie_page_mobile.png)
 
 <a name="surface"></a>
 
