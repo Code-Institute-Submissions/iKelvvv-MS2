@@ -428,7 +428,7 @@ Losing Page:
 
 -   The close "x" button on the popup modals for the index page is not centred. This was rectified by adding padding to the top of the close button.
 
--   The player/CPU labels on the scoreboard for the game page is not vertically aligned. This was rectified by add padding to the bottom.
+-   The player/CPU labels on the scoreboard for the game page is not vertically aligned. This was rectified by adding padding to the bottom.
 
 -   The placeholder text for the contact form popup modal to close to the left and top side, making the character of the input text hard to read. The was rectified by adding padding to the left side and padding to the top for the message input.
 
