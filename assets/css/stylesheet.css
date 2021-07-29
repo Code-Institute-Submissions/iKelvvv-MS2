@@ -55,7 +55,7 @@ body {
 }
 
 /* Game menu buttons */
-.index-btn {
+.index_btn {
     background-color: #efefef;
     padding: 1em 1em;
     font-size: 2.5rem;
@@ -124,7 +124,7 @@ body {
 }
 
 /* Intro video*/
-#intro-vid {
+#intro_vid {
     display: block;
     margin-top: 1.5%;
     margin-left: auto;
@@ -201,7 +201,7 @@ a {
     border-radius: 10px;
 }
 
-#user-label {
+#user_label {
     position: absolute;
     top: 50%;
     left: -5%;
@@ -209,7 +209,7 @@ a {
     padding-bottom: 1%;
 }
 
-#computer-label {
+#computer_label {
     position: absolute;
     top: 50%;
     right: -5%;
@@ -255,9 +255,15 @@ a {
     margin-bottom: 2.5%;
 }
 
+/* Main menu button */
+#main_menu_btn {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
 /* Weapon Buttons */
 
-.btn--big {
+.btn_big {
     padding-top: 10px;
     border-radius: 50%;
     background-color: white;
@@ -268,57 +274,57 @@ a {
     transition: all 0.5s;
 }
 
-.btn--blue {
+.btn_blue {
     border-color: #0085c7;
     color: #0085c7;
 }
 
-.btn--blue:active,
-.btn--blue:hover {
+.btn_blue:active,
+.btn_blue:hover {
     background-color: #0085c7;
     color: white;
 }
 
-.btn--black {
+.btn_black {
     border-color: black;
     color: black;
 }
 
-.btn--black:active,
-.btn--black:hover {
+.btn_black:active,
+.btn_black:hover {
     background-color: black;
     color: white;
 }
 
-.btn--red {
+.btn_red {
     border-color: #df0024;
     color: #df0024;
 }
 
-.btn--red:active,
-.btn--red:hover {
+.btn_red:active,
+.btn_red:hover {
     background-color: #df0024;
     color: white;
 }
 
-.btn--green {
+.btn_green {
     border-color: #009f3d;
     color: #009f3d;
 }
 
-.btn--green:active,
-.btn--green:hover {
+.btn_green:active,
+.btn_green:hover {
     background-color: #009f3d;
     color: white;
 }
 
-.btn--yellow {
+.btn_yellow {
     border-color: #f4c300;
     color: #f4c300;
 }
 
-.btn--yellow:active,
-.btn--yellow:hover {
+.btn_yellow:active,
+.btn_yellow:hover {
     background-color: #f4c300;
     color: white;
 }
@@ -376,7 +382,7 @@ footer {
     }
 
     /* Game menu buttons */
-    .index-btn {
+    .index_btn {
         width: 50%;
         font-size: 2.4rem;
     }
@@ -396,11 +402,11 @@ footer {
     }
 
     /* Score Board / Results */
-    #user-label {
+    #user_label {
         font-size: 80%;
     }
 
-    #computer-label {
+    #computer_label {
         font-size: 80%;
     }
 
@@ -408,11 +414,11 @@ footer {
         width: 70%;
     }
 
-    #user-score {
+    #user_score {
         font-size: 200%;
     }
 
-    #computer-score {
+    #computer_score {
         font-size: 200%;
     }
 
@@ -433,8 +439,10 @@ footer {
         font-size: 180%;
     }
 
-    #menu-btn {
+    /* Main menu button */
+    #main_menu_btn {
         margin-top: 2.5%;
+        margin-bottom: 2.5%;
         width: 80%;
     }
 
@@ -466,7 +474,7 @@ footer {
     }
 
     /* Game menu buttons */
-    .index-btn {
+    .index_btn {
         width: 50%;
         font-size: 2.4rem;
     }
@@ -486,11 +494,11 @@ footer {
     }
 
     /* Score Board / Results */
-    #user-label {
+    #user_label {
         font-size: 80%;
     }
 
-    #computer-label {
+    #computer_label {
         font-size: 80%;
     }
 
@@ -515,8 +523,9 @@ footer {
         font-size: 150%;
     }
 
-    #menu-btn {
+    #main_menu_btn {
         margin-top: 2.5%;
+        margin-bottom: 2.5%;
         width: 80%;
     }
 
@@ -548,7 +557,7 @@ footer {
     }
 
     /* Game menu buttons */
-    .index-btn {
+    .index_btn {
         width: 50%;
         font-size: 1.7rem;
     }
@@ -568,11 +577,11 @@ footer {
     }
 
     /* Score Board / Results */
-    #user-label {
+    #user_label {
         font-size: 60%;
     }
 
-    #computer-label {
+    #computer_label {
         font-size: 60%;
     }
 
@@ -598,8 +607,9 @@ footer {
         font-size: 130%;
     }
 
-    #menu-btn {
+    #main_menu_btn {
         margin-top: 2.5%;
+        margin-bottom: 2.5%;
         width: 80%;
     }
 
@@ -631,7 +641,7 @@ footer {
     }
 
     /* Game menu buttons */
-    .index-btn {
+    .index_btn {
         width: 50%;
         font-size: 1.7rem;
     }
@@ -640,7 +650,7 @@ footer {
         margin-top: 5%;
     }
 
-    #intro-vid {
+    #intro_vid {
         height: 10rem;
     }
 
@@ -650,11 +660,11 @@ footer {
     }
 
     /* Score Board / Results */
-    #user-label {
+    #user_label {
         font-size: 60%;
     }
 
-    #computer-label {
+    #computer_label {
         font-size: 60%;
     }
 
@@ -680,8 +690,9 @@ footer {
         font-size: 130%;
     }
 
-    #menu-btn {
+    #main_menu_btn {
         margin-top: 2.5%;
+        margin-bottom: 2.5%;
         width: 80%;
     }
 
@@ -713,7 +724,7 @@ footer {
     }
 
     /* Game menu buttons */
-    .index-btn {
+    .index_btn {
         width: 50%;
     }
 
@@ -722,7 +733,7 @@ footer {
     }
 
     /* Intro video*/
-    #intro-vid {
+    #intro_vid {
         height: 15rem;
     }
 
@@ -732,11 +743,11 @@ footer {
     }
 
     /* Score Board / Results */
-    #user-label {
+    #user_label {
         font-size: 50%;
     }
 
-    #computer-label {
+    #computer_label {
         font-size: 50%;
     }
 
@@ -762,12 +773,13 @@ footer {
         font-size: 100%;
     }
 
-    .btn--big {
+    .btn_big {
         margin: 0;
     }
 
-    #menu-btn {
+    #main_menu_btn {
         margin-top: 2.5%;
+        margin-bottom: 2.5%;
         width: 80%;
     }
 

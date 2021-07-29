@@ -1,11 +1,11 @@
-const computerChoiceDisplay = document.getElementById("computer-choice");
-const userChoiceDisplay = document.getElementById("user-choice");
+const computerChoiceDisplay = document.getElementById("computer_choice");
+const userChoiceDisplay = document.getElementById("user_choice");
 const resultDisplay = document.getElementById("result_display");
-const computerScore = document.getElementById("computer-score");
-const userScore = document.getElementById("user-score");
+const computerScore = document.getElementById("computer_score");
+const userScore = document.getElementById("user_score");
 
-let computerLabel = document.getElementById("computer-label");
-let playerLabel = document.getElementById("user-label");
+let computerLabel = document.getElementById("computer_label");
+let playerLabel = document.getElementById("user_label");
 
 var userChoice;
 var computerChoice;
@@ -14,7 +14,7 @@ var result;
 // Selects the rock weapon icon
 function selectRock() {
     userChoice = "Rock";
-    userChoiceDisplay.innerHTML = '<button id="Rock" class="btn--big btn--blue"><i class="far fa-hand-rock weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Rock" class="btn_big btn_blue"><i class="far fa-hand-rock weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
@@ -22,7 +22,7 @@ function selectRock() {
 // Selects the paper weapon icon
 function selectPaper() {
     userChoice = "Paper";
-    userChoiceDisplay.innerHTML = '<button id="Paper" class="btn--big btn--black"><i class="far fa-hand-paper weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Paper" class="btn_big btn_black"><i class="far fa-hand-paper weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
@@ -30,7 +30,7 @@ function selectPaper() {
 // Selects the scissors weapon icon
 function selectScissors() {
     userChoice = "Scissors";
-    userChoiceDisplay.innerHTML = '<button id="Scissors" class="btn--big btn--red"><td></td><i class="far fa-hand-scissors weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Scissors" class="btn_big btn_red"><td></td><i class="far fa-hand-scissors weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
@@ -38,7 +38,7 @@ function selectScissors() {
 // Selects the lizard weapon icon
 function selectLizard() {
     userChoice = "Lizard";
-    userChoiceDisplay.innerHTML = '<button id="Lizard" class="btn--big btn--yellow"><i class="far fa-hand-lizard weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Lizard" class="btn_big btn_yellow"><i class="far fa-hand-lizard weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
@@ -46,7 +46,7 @@ function selectLizard() {
 // Selects the spock weapon icon
 function selectSpock() {
     userChoice = "Spock";
-    userChoiceDisplay.innerHTML = '<button id="Spock" class="btn--big btn--green"><i class="far fa-hand-spock weapon"></i></button>';
+    userChoiceDisplay.innerHTML = '<button id="Spock" class="btn_big btn_green"><i class="far fa-hand-spock weapon"></i></button>';
     computerGenerator();
     calculateWinner();
 }
@@ -59,23 +59,23 @@ function computerGenerator() {
 
     if (randomNumber === 1) {
         computerChoice = "Rock";
-        computerChoiceIcon = '<button id="Rock" class="btn--big btn--blue"><i class="far fa-hand-rock weapon"></i></button>';
+        computerChoiceIcon = '<button id="Rock" class="btn_big btn_blue"><i class="far fa-hand-rock weapon"></i></button>';
     }
     if (randomNumber === 2) {
         computerChoice = "Paper";
-        computerChoiceIcon = '<button id="Paper" class="btn--big btn--black"><i class="far fa-hand-paper weapon"></i></button>';
+        computerChoiceIcon = '<button id="Paper" class="btn_big btn_black"><i class="far fa-hand-paper weapon"></i></button>';
     }
     if (randomNumber === 3) {
         computerChoice = "Scissors";
-        computerChoiceIcon = '<button id="Scissors" class="btn--big btn--red"><i class="far fa-hand-scissors weapon"></i></button>';
+        computerChoiceIcon = '<button id="Scissors" class="btn_big btn_red"><i class="far fa-hand-scissors weapon"></i></button>';
     }
     if (randomNumber === 4) {
         computerChoice = "Lizard";
-        computerChoiceIcon = '<button id="Lizard" class="btn--big btn--yellow"><i class="far fa-hand-lizard weapon"></i></button>';
+        computerChoiceIcon = '<button id="Lizard" class="btn_big btn_yellow"><i class="far fa-hand-lizard weapon"></i></button>';
     }
     if (randomNumber === 5) {
         computerChoice = "Spock";
-        computerChoiceIcon = '<button id="Spock" class="btn--big btn--green"><i class="far fa-hand-spock weapon"></i></button>';
+        computerChoiceIcon = '<button id="Spock" class="btn_big btn_green"><i class="far fa-hand-spock weapon"></i></button>';
     }
     computerChoiceDisplay.innerHTML = computerChoiceIcon;
 }
@@ -206,8 +206,8 @@ function incrementComputerScore() {
     playerLabel.style.backgroundColor = "#df0024";
 
     if (newScore == 3) {
-        resultDisplay.innerHTML = "<img class='gif' src='assets/images/you_lose.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
-        const choiceArea = document.getElementsByClassName("choice-area");
+        resultDisplay.innerHTML = "<img class='gif' src='assets/images/you_lose.gif'/> <a class='index_btn' href='start_game.html'>New Game</a>";
+        const choiceArea = document.getElementsByClassName("choice_area");
         const weaponsArea = document.getElementsByClassName("weapons_area");
         while (choiceArea.length > 0) {
             choiceArea[0].parentNode.removeChild(choiceArea[0]);
@@ -230,7 +230,7 @@ function incrementUserScore() {
 
     if (newScore == 3) {
         resultDisplay.innerHTML = "<img class='gif' src='assets/images/winner.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
-        const choiceArea = document.getElementsByClassName("choice-area");
+        const choiceArea = document.getElementsByClassName("choice_area");
         const weaponsArea = document.getElementsByClassName("weapons_area");
         while (choiceArea.length > 0) {
             choiceArea[0].parentNode.removeChild(choiceArea[0]);
