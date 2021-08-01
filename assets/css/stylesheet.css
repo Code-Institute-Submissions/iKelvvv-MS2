@@ -191,6 +191,10 @@ a {
     color: black;
 }
 
+.modal_title {
+    padding-top: 2.5%;
+}
+
 /* Score Board / Results */
 .badge {
     background: grey;
