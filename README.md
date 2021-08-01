@@ -52,15 +52,18 @@ I want the player to be engaged with the game.
 ### User Goals:
 
 First Time Visitor Goals
+
 -   As a first-time visitor, I want to be engaged with the concept of the game.
 -   As a first-time visitor, I want to be able to easily understand the rules of the game.
 -   As a first-time visitor, I want to play the game to win.
 
 Returning Visitor Goals
+
 -   As a Returning Visitor, I want to beat the computer.
 -   As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
 
 Frequent User Goals
+
 -   As a Frequent User, I want to check to see if there are any newly animations to the weapons.
 
 ### User Expectations:
@@ -141,7 +144,7 @@ Web browser index page:
 [![index_web](documentation-assets/wireframe-images/index_web.png)](documentation-assets/wireframe-images/index_web.png)
 
 Mobile index page:
-[![index_mobile](documentation-assets/wireframe-images/index_mobile.png)](documentation-assets/wireframe-images/index_mobile.png)
+[![index_mobile](documentation-assets/wireframe-images/index_mobile_test.png)](documentation-assets/wireframe-images/index_mobile_test.png)
 
 Web browser introduction modal:
 [![introduction_modal_web](documentation-assets/wireframe-images/introduction_modal_web.png)](documentation-assets/wireframe-images/introduction_modal_web.png)
