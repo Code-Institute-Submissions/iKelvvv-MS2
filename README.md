@@ -417,20 +417,35 @@ I used GitHub pages to deploy my final project to the cloud. To do this I had to
 
 Please fine below a screenshot of each page:
 
-Home page UI:
-![home page preview](assets/images/index_page_end_product.png)
+Home page web UI:
+![home page web preview](assets/images/index_page_end_product.png)
 
-Start Game Page UI:
-![game page preview](assets/images/game_page_end_product.png)
+Home page mobile UI:
+![home page mobile preview](assets/images/index_page_mobile_ep.png)
 
-Mid Game Page UI:
-![mid game page preview](assets/images/mid_game_page_end_product.png)
+Start game page web UI:
+![game page web preview](assets/images/game_page_end_product.png)
 
-Winning Page:
-![winning page preview](assets/images/winning_gif_end_product.png)
+Start game page mobile UI:
+![game page mobile preview](assets/images/start_game_mobile_ep.png)
 
-Losing Page:
-![losing page preview](assets/images/losing_gif_end_product.png)
+Mid game page web UI:
+![mid game page web preview](assets/images/mid_game_page_end_product.png)
+
+Mid game page mobile UI:
+![mid game page mobile preview](assets/images/mid_game_mobile_ep.png)
+
+Winning page web:
+![winning page web preview](assets/images/winning_gif_end_product.png)
+
+Winning page mobile:
+![winning page mobile preview](assets/images/winning_page_mobile_ep.png)
+
+Losing page web:
+![losing page web preview](assets/images/losing_gif_end_product.png)
+
+Losing page mobile:
+![losing page mobile preview](assets/images/losing_page_mobile_ep.png)
 
 <a name="known-bugs"></a>
 
