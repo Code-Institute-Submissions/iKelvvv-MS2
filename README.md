@@ -144,7 +144,7 @@ Web browser index page:
 [![index_web](documentation-assets/wireframe-images/index_web.png)](documentation-assets/wireframe-images/index_web.png)
 
 Mobile index page:
-[![index_mobile](documentation-assets/wireframe-images/index_mobile_test.png)](documentation-assets/wireframe-images/index_mobile_test.png)
+[![index_mobile](documentation-assets/wireframe-images/index_mobile.png)](documentation-assets/wireframe-images/index_mobile.png)
 
 Web browser introduction modal:
 [![introduction_modal_web](documentation-assets/wireframe-images/introduction_modal_web.png)](documentation-assets/wireframe-images/introduction_modal_web.png)
