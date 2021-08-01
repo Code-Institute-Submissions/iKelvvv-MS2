@@ -430,7 +430,7 @@ Losing Page:
 
 -   The player/CPU labels on the scoreboard for the game page is not vertically aligned. This was rectified by adding padding to the bottom.
 
--   The placeholder text for the contact form popup modal to close to the left and top side, making the character of the input text hard to read. The was rectified by adding padding to the left side and padding to the top for the message input.
+-   The placeholder text for the contact form popup modal is too close to the left and top side edge, making the characters of the input text hard to read. The was rectified by adding padding to the left side and padding to the top for the message input.
 
 <a name="credits"></a>
 
