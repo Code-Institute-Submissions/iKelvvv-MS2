@@ -36,7 +36,7 @@ A live website can be found [here](https://ikelvvv.github.io/MS2/).
 
 [Go to the top](#table-of-contents)
 
-Everybody knows the basic Rock, Paper, Scissors game, but not everyone knows about the Rock, Paper, Scissors, Liard, Spock game which originated from the TV show, Big Bang Theory. This game adds 2 extra weapons, Lizard and Spock. This changes the who dynamic of the game giving the player/s more variety to win.
+Everybody knows the basic Rock, Paper, Scissors game, but not everyone knows about the Rock, Paper, Scissors, Lizard, Spock game which originated from the TV show, Big Bang Theory. This game adds 2 extra weapons, Lizard and Spock. This changes the who dynamic of the game giving the player/s more variety to win.
 
 <a name="strategy"></a>
 
@@ -51,20 +51,17 @@ I want the player to be engaged with the game.
 
 ### User Goals:
 
--   First Time Visitor Goals
+First Time Visitor Goals
+-   As a first-time visitor, I want to be engaged with the concept of the game.
+-   As a first-time visitor, I want to be able to easily understand the rules of the game.
+-   As a first-time visitor, I want to play the game to win.
 
-*   As a first-time visitor, I want to be engaged with the concept of the game.
-*   As a first-time visitor, I want to be able to easily understand the rules of the game.
-*   As a first-time visitor, I want to play the game to win.
+Returning Visitor Goals
+-   As a Returning Visitor, I want to beat the computer.
+-   As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
 
--   Returning Visitor Goals
-
-*   As a Returning Visitor, I want to beat the computer.
-*   As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
-
--   Frequent User Goals
-
-*   As a Frequent User, I want to check to see if there are any newly animations to the weapons.
+Frequent User Goals
+-   As a Frequent User, I want to check to see if there are any newly animations to the weapons.
 
 ### User Expectations:
 
@@ -290,12 +287,16 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all 
 
 I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
 I had no errors in the index and start_game page.
+![index HTML validator](assets/images/index_html_validator_results.png)
+![start_game HTML validator](assets/images/game_html_validator_results.png)
 
 I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
 I had no errors in my CSS file.
+![css validator](assets/images/css_validator_results.png)
 
 I used [JS Hint](https://jshint.com/) to check for any errors within my JavaScript file.
 I had no errors in my JavaScript files.
+![javascript validator](assets/images/javascript_validator_results.png)
 
 ## Manual Testing
 
@@ -323,7 +324,7 @@ Please find below my testing process for all pages via mobile and web:
 
         -   I checked that all images and videos on this page-load. Making sure that the video is played and that all images have alt text if media does not load. It worked as expected.
 
-    -   Responsiveness
+    -   Responsiveness:
         -   I checked that all pages and elements were responsive. Checking each page on mobile and website and adjusting screen size to find breakpoints. It worked as expected.
 
 ### Landing Page
