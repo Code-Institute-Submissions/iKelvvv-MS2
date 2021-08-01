@@ -287,15 +287,18 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all 
 
 I used [W3C Markup](https://validator.w3.org/#validate_by_input+with_options) to check for any errors within my HTML pages.
 I had no errors in the index and start_game page.
+
 ![index HTML validator](assets/images/index_html_validator_results.png)
 ![start_game HTML validator](assets/images/game_html_validator_results.png)
 
 I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
 I had no errors in my CSS file.
+
 ![css validator](assets/images/css_validator_results.png)
 
 I used [JS Hint](https://jshint.com/) to check for any errors within my JavaScript file.
 I had no errors in my JavaScript files.
+
 ![javascript validator](assets/images/javascript_validator_results.png)
 
 ## Manual Testing
