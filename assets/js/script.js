@@ -229,7 +229,7 @@ function incrementUserScore() {
     playerLabel.style.backgroundColor = "#009f3d";
 
     if (newScore == 3) {
-        resultDisplay.innerHTML = "<img class='gif' src='assets/images/winner.gif'/> <a class='index-btn' href='start_game.html'>New Game</a>";
+        resultDisplay.innerHTML = "<img class='gif' src='assets/images/winner.gif'/> <a class='index_btn' href='start_game.html'>New Game</a>";
         const choiceArea = document.getElementsByClassName("choice_area");
         const weaponsArea = document.getElementsByClassName("weapons_area");
         while (choiceArea.length > 0) {
