@@ -52,18 +52,15 @@ I want the player to be engaged with the game.
 ### User Goals:
 
 First Time Visitor Goals
-
 -   As a first-time visitor, I want to be engaged with the concept of the game.
 -   As a first-time visitor, I want to be able to easily understand the rules of the game.
 -   As a first-time visitor, I want to play the game to win.
 
 Returning Visitor Goals
-
 -   As a Returning Visitor, I want to beat the computer.
 -   As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
 
 Frequent User Goals
-
 -   As a Frequent User, I want to check to see if there are any newly animations to the weapons.
 
 ### User Expectations:
@@ -392,7 +389,15 @@ There were some elements I changed, re-positioned and added from my original wir
 
 [Go to the top](#table-of-contents)
 
-I used GitHub pages to deploy my final project. To do this I had to:
+I used the terminal to deploy my project locally. To do this I had to:
+1. Create a repository on GitHub.
+2. Clone the repository on your chosen source code editor (Visual Studio Code in my case) using the clone link.
+3. Open the terminal within Visual Studio Code.
+4. Enter "python3 -m http.server" into the terminal.
+5. Go to "http://[::]:8000/" on my web browser.
+6. All locally saved changes will show up here.
+
+I used GitHub pages to deploy my final project to the cloud. To do this I had to:
 
 1. Create a repository on GitHub.
 2. Clone the repository on your chosen source code editor (Visual Studio Code in my case) using the clone link.
