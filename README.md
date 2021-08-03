@@ -279,6 +279,10 @@ For every element that I added to my HTML, I would add the basic CSS to my style
 
 For all JavaScript functions, i console logged each function to make sure that the output was correct.
 
+I checked the accessibility of the page using lighthouse.
+![lighthouse score](assets/images/lighthouse.png)
+
+
 ### Responsive Tools
 
 I used [Am I Responsive](http://ami.responsivedesign.is/) to make sure that all my pages are responsive to all devices.
